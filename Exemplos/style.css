@@ -1,0 +1,155 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+/* cabeçalho  */
+.Topo{
+    background-color: #173d69;
+    color: white;
+    padding: 24px;
+}
+
+.Topo h1{
+     margin-bottom: 12px;
+}
+
+
+.menu-horizontal a{
+    color: white;
+    background-color: #2b598b;
+    text-decoration: none ;
+    padding: 10px 14px;
+    border-radius: 10px;
+    
+}
+.menu-horizontal a:hover{
+    background-color: black;
+    color: rgb(92, 92, 184);
+    cursor: pointer;
+    padding: 15px 30px;
+     box-shadow: 5px 5px 5px #000000;
+}
+
+.menu-horizontal ul{
+    display: flex;
+    margin: 8px;
+    gap: 20px;
+    padding: 0px;
+    list-style: none;
+}
+.pagina{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1050px;
+    margin: 24px auto;
+}
+
+.pagina a{
+    color: black;
+}
+.Menu-lateral{
+    width: 205px;
+    background-color: #e4eef5;
+    border-radius: 25px;
+    padding: 24px;
+
+}
+
+.Menu-lateral h2{
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.Menu-lateral UL{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.Menu-lateral a{
+    padding: 12px 10px;
+    color: cornflowerblue;
+    text-decoration: none;
+    background-color: rgb(93, 75, 139);
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.Menu-lateral a:hover{
+    background-color: gray;
+    color: black;
+    padding: 15px 30px;
+    box-shadow: 5px 5px 5px #173d69;
+}
+.conteudo{
+    flex:1;
+}
+.section{
+    padding: 20px;
+    margin-bottom: 16px;
+    background-color: rgb(203, 202, 202);
+    border:2px solid rgb(215, 214, 214) ;
+    border-radius: 8px;
+}
+.section h2{
+    color: rgb(50, 50, 114);
+}
+
+.imagem{
+    width: 250px;
+    border-radius: 15px;
+}
+
+.section2{
+    padding: 20px;
+    margin-bottom: 16px;
+    background-color: rgb(203, 202, 202);
+    border:2px solid rgb(215, 214, 214) ;
+    border-radius: 8px;
+}
+
+.Lista-conteudo{
+    font-size: 15px;
+    list-style: upper-roman;
+}
+
+Table{
+    width: 100%;
+    background-color: rgb(203, 202, 202);
+    border:2px solid rgb(215, 214, 214) ;
+    border-radius: 8px;
+}
+
+
+th, td{
+    border: 1px solid #575859;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: rgb(232, 232, 232);
+}
+
+.Link{
+    background-color: #a5a5a5;
+    color: white;
+    padding: 10px 14px;
+    text-decoration: none;
+    border:2px solid #ffffff ;
+    border-radius: 10px;
+}
+
+
+.Link:hover{
+    background-color: #000000;
+    color: aliceblue;
+    box-shadow: 5px 5px 5px black;
+}
